@@ -77,7 +77,6 @@ h1 em, h2 em { color: var(--coral); font-weight: 500; }
 .project-tile { display: block; }
 .project-tile img { aspect-ratio: 1.36; background: #e0ddd4; transition: filter 220ms ease; }
 .project-tile:hover img { filter: saturate(1.13); }
-.project-tile-offset { margin-top: 57px; }
 .tile-meta { display: flex; justify-content: space-between; gap: 16px; padding-top: 13px; font-size: 12px; font-weight: 600; }
 .tile-meta span + span { color: var(--muted); font-size: 10px; font-weight: 400; }
 .home-note { display: flex; justify-content: space-between; align-items: center; padding-block: 44px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -171,7 +170,6 @@ h1 em, h2 em { color: var(--coral); font-weight: 500; }
   .section-heading { align-items: end; gap: 12px; }
   .section-heading > .text-link { flex: 0 0 auto; font-size: 10px; }
   .project-grid { grid-template-columns: 1fr; gap: 27px; }
-  .project-tile-offset { margin-top: 0; }
   .home-note { gap: 18px; padding-block: 30px; }
   .home-note p { font-size: 31px; }
   .round-link { flex: 0 0 42px; width: 42px; }
